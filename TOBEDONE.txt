@@ -1,5 +1,6 @@
 IMPORTANT PRIORITY 
 - port all imgs to github instead of pinterest
+- pages port
 
 
 LESS IMPORTANT BUT STILL KINDA PRIORITY
