@@ -6,4 +6,4 @@ IMPORTANT PRIORITY
 LESS IMPORTANT BUT STILL KINDA PRIORITY
 - bring back my video randomizer
 - gamelog page
-- abt page
+- abt page (wip)
