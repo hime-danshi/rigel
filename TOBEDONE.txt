@@ -1,1 +1,8 @@
-mann
+IMPORTANT PRIORITY 
+- port all imgs to github instead of pinterest
+
+
+LESS IMPORTANT BUT STILL KINDA PRIORITY
+- bring back my video randomizer
+- gamelog page
+- abt page
