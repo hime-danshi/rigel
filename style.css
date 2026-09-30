@@ -1,0 +1,17 @@
+body {
+background-image: url(&#34;https://i.pinimg.com/736x/41/d7/d1/41d7d158e1c10e664303a42902beda61.jpg&#34;);
+margin: 90px;
+}
+
+#needsbg {
+color: white; 
+background: rgb(0, 0, 0, .75);
+max-width: fit-content; 
+padding: 6px 25px; 
+}
+
+p {
+font-size: 18px; }
+
+h1 {
+font-size: 65px; }
