@@ -15,3 +15,9 @@ font-size: 18px; }
 
 h1 {
 font-size: 65px; }
+
+video {
+    width: 200%;
+    max-width: 200px;
+    max-height: 300px; }
+  
