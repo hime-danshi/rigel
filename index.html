@@ -31,35 +31,38 @@
   Your browser does not support the video tag.
 </video>
 
-    <script>
-      // Array of video sources
-  var videoList = [
-    "https://files.catbox.moe/ztw5b1.mp4",
-    "https://files.catbox.moe/dj0r9k.mp4",
-    "https://files.catbox.moe/n8xy9h.mp4",
-    "https://files.catbox.moe/vp8zor.mp4",
-    "https://files.catbox.moe/ehz12n.mp4",
-    "https://files.catbox.moe/c7jza8.mp4",
-    "https://files.catbox.moe/15zd6z.mp4",
-    "https://files.catbox.moe/2f4g30.mp4"
-  ];
+<script>
+    const videoList = [
+        "https://catbox.moe",
+        "https://catbox.moe",
+        "https://catbox.moe",
+        "https://catbox.moe",
+        "https://catbox.moe",
+        "https://catbox.moe",
+        "https://catbox.moe",
+        "https://catbox.moe"
+    ];
 
-  // Function to get a random video URL
-  function getRandomVideoUrl() {
-    var randomIndex = Math.floor(Math.random() * videoList.length);
-    return videoList[randomIndex];
-  }
+    function setRandomVideo() {
+        const videoPlayer = document.getElementById("randomVideoPlayer");
+        if (!videoPlayer) return;
 
-  // Function to load the random video on page load
-  window.onload = function() {
-    var videoPlayer = document.getElementById("randomVideoPlayer");
-    var randomVideoSrc = getRandomVideoUrl();
-    videoPlayer.src = randomVideoSrc;
-    videoPlayer.load(); 
-    videoPlayer.volume = 0.025;
+        const randomIndex = Math.floor(Math.random() * videoList.length);
+        videoPlayer.src = videoList[randomIndex];
+        videoPlayer.volume = 0.025; 
+        videoPlayer.load();
+    }
 
-  };
-    </script>
+
+    document.addEventListener("DOMContentLoaded", setRandomVideo);
+</script>
+
+        <video id="randomVideoPlayer" controls width="400">
+    Your browser does not support the video tag.
+</video>
+
+
+        
       </p>
     </center>
   </body>
